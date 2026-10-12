@@ -1,0 +1,16 @@
+body {
+    background: #8fc2e3;
+    padding: 20px;
+}
+h1,
+h2,
+h3 {
+    color: #61005c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+img {
+    width: 200px;
+}
+h1 
+{background-color: bisque;
+padding: 7%;}
