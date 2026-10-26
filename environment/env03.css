@@ -1,0 +1,69 @@
+body {
+    background-image: url("envturkeybckrnd.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(167, 211, 249);
+}
+
+.p1,
+.p2 {
+    color: #0a0a0a;
+}
+
+
+img {
+    max-height: 30%;
+    max-width: 30%;
+}
+
+.main-zone {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+.highlight {
+    background-color: #e9afaf;
+}
+
+#worm-caption {
+    background-color: rgb(198, 249, 161);
+    max-height: fit-content;
+    max-width: 150px;
+    padding: 1%;
+}
+
+#worm {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.top-zone {
+    display: flex;
+}
+
+#worm-button {
+    background-color: #e9afaf;
+    padding: 5%;
+    border-style: dotted;
+}
+
+#worm1-button,
+#worm2-button,
+#rainbow-button {
+    background-color: rgb(162, 240, 240);
+    border: aliceblue;
+}
+
+#output1 {
+    background-color: rgb(162, 240, 240);
+
+}
+
+#rainbow {
+    flex: 1;
+}
+
+#rain {
+    min-width: 100%;
+}
