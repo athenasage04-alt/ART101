@@ -39,7 +39,7 @@ img {
 }
 
 .top-zone {
-    display: flex;
+    display: inline-flex;
 }
 
 #worm-button {
