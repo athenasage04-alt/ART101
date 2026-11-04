@@ -51,12 +51,13 @@ img {
 #worm1-button,
 #worm2-button,
 #rainbow-button,
-#comply-button {
+#complyButton {
     background-color: rgb(162, 240, 240);
     border: aliceblue;
 }
 
-#output1 {
+#output1,
+#output4 {
     background-color: rgb(162, 240, 240);
 
 }

@@ -16,10 +16,12 @@ $("#worm2-button").click(function () {
 $("#rainbow-button").click(function () {
     let message = "<p> i live in the sky with the sun beaming on the beings below. watch out for me worm, you'll feel better under the soil.</p> + ";
     $("#output1").html(message);
+    //complyButton.classList.toggle('hidden');
+
 });
 
 function askComply(whatComply) {
-    let userComply = prompt("comply?");
+    let userComply = prompt("comply? type 'comply' to comply");
 
     if (userComply == whatComply) {
         $("#output4").html("mwahaha");
@@ -30,9 +32,11 @@ function askComply(whatComply) {
 
 }
 
-$("#comply-button").click(function () {
+$("#complyButton").click(function () {
     askComply("comply");
 });
+
+
 
 
 
