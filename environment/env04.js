@@ -1,11 +1,8 @@
 
-
-let messagesA = ["yay! click on the rainbow caption for ur first fact", "2",];
-let counterA = 0
 // worm says would you like to learn more about my environment? y/n
 $("#worm1-button").click(function () {
-    $("#output2").html(messagesA[counterA]);
-    counterA = counterA + 1;
+    let message = "<p> yay! click on the rainbow caption for ur first fact </p>"
+    $("#output2").html(message);
 });
 
 $("#worm2-button").click(function () {
@@ -21,13 +18,13 @@ $("#rainbow-button").click(function () {
 });
 
 function askComply(whatComply) {
-    let userComply = prompt("comply? type 'comply' to comply");
+    let userComply = prompt(" type 'comply' to comply");
 
     if (userComply == whatComply) {
         $("#output4").html("mwahaha");
     }
     else {
-        $("#output4").html("ur craaazy");
+        $("#output4").html("you crazy little worm what are we gonna do with you!");
     }
 
 }
@@ -35,6 +32,10 @@ function askComply(whatComply) {
 $("#complyButton").click(function () {
     askComply("comply");
 });
+
+//$("#rainbow-button").addEventListener('click', () => {
+//complyButton.classList.remove('hidden');
+//});
 
 
 
